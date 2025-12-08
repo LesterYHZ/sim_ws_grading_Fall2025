@@ -1,4 +1,4 @@
-# ME597 sim_ws
+# ME597 sim_ws grading
 A simulation workspace bulit for ME597 final project in Fall 2025. 
 
 ## Instructions:
