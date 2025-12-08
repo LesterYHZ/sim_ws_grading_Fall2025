@@ -65,12 +65,12 @@ class GazeboModelHandler(Node):
     
     def timer_callback(self):
         t = self.elapsed
-        y0 = -3.0
-        y1 = -0.7
+        y0 = 1.0
+        y1 = 3.25
         y2 = -5.0
         
-        self.set_model_position(-5.0, y0, 'red_object')
-        self.set_model_position(7.0, y1, 'blue_object')
+        self.set_model_position(2.5, y0, 'red_object')
+        self.set_model_position(-5.0, y1, 'blue_object')
         self.set_model_position(8.0,y2,'green_object')
         self.elapsed = (self.elapsed + 1) % 201  # Increment and reset after reaching 200
 
