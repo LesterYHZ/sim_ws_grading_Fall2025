@@ -27,6 +27,7 @@ A simulation workspace bulit for ME597 final project in Fall 2025.
     
     ```
     pip install pynput
+    pip install control
     ```
 
 5. Don't forget to source the workspace whenever you use it
