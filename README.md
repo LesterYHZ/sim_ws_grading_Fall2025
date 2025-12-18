@@ -32,6 +32,6 @@ A simulation workspace bulit for ME597 final project in Fall 2025.
 
 5. Don't forget to source the workspace whenever you use it
     ```
-    cd sim_ws
+    cd sim_ws_grading_Fall2025
     source install/local_setup.bash
     ```
